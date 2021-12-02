@@ -8,7 +8,7 @@ self.addEventListener('install', evento=>{
         .then(cache=>{
             return cache.addAll([
                 //'/',
-                'index.html',
+                '/index.html',
                 '/css/normalize.css',
                 '/css/style.css',
                 '/img/logo.png',
@@ -18,8 +18,8 @@ self.addEventListener('install', evento=>{
                 '/img/1.svg',
                 '/img/nfc.svg',
                 '/img/3.svg',
-                'offline.html',
-                'manifest.json',
+                '/offline.html',
+                '/manifest.json',
                 
             ]);
         });
