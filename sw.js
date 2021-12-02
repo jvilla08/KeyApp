@@ -8,18 +8,18 @@ self.addEventListener('install', evento=>{
         .then(cache=>{
             return cache.addAll([
                 //'/',
-                '/index.html',
-                '/css/normalize.css',
-                '/css/style.css',
-                '/img/logo.png',
-                '/nosotros.html',
-                '/productos.html',
-                '/contacto.html',
-                '/img/1.svg',
-                '/img/nfc.svg',
-                '/img/3.svg',
-                '/offline.html',
-                '/manifest.json',
+                'index.html',
+                'css/normalize.css',
+                'css/style.css',
+                'img/logo.png',
+                'nosotros.html',
+                'productos.html',
+                'contacto.html',
+                'img/1.svg',
+                'img/nfc.svg',
+                'img/3.svg',
+                'offline.html',
+                'manifest.json',
                 
             ]);
         });
