@@ -1,5 +1,5 @@
 var url=window.location.href;
-var ubicacionSw='/KeyApp/sw.js';
+var ubicacionSw='keyApp/sw.js';
 if ( navigator.serviceWorker ) {
     if(url.includes('localhost')){
         ubicacionSw='/sw.js';
