@@ -1,0 +1,331 @@
+html{
+	box-sizing: border-box;
+	font-size: 62.5%;
+
+}
+
+*,*:before, *:after {
+	box-sizing: inherit;
+}
+
+
+body{
+	font-family: 'lato' , sans-serif;
+	line-height: 2;
+	
+}
+
+img{
+	max-width: 100%;
+}
+
+/* Globales */
+
+.contenedor{
+	max-width: 80rem;
+	margin: 0 auto;
+}
+h1{
+	font-size: 3.8rem;
+}
+h2{
+	font-size: 3.4rem;
+}
+h3{
+	font-size: 3rem;
+}
+h4{
+	font-size: 1.8rem;
+}
+/*utilidades*/
+.seccion{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.fw-300{
+	font-weight: 300;
+}
+
+.centrar-texto{
+	text-align: center;
+}
+
+.boton{
+color: white;
+font-weight: 700;
+text-decoration: none;
+font-size: 1.8rem;
+padding:1rem 3rem;
+margin-top: 3rem;
+display: inline-block;
+text-align: center;
+text-transform: uppercase; 
+}
+
+.boton-amarillo{
+background-color: #FF0000
+}
+
+/*.d-block{
+
+}
+*/
+.boton-azul{
+background-color: #FFFFFF;
+}
+
+.d-block{
+	display: block!important;
+}
+.inicio{
+	background-image: url(../img/header.png);
+	background-position: center center;
+	background-size:cover;
+	height: 100vh;
+	min-height: 50rem;
+
+}
+
+.contenido-header{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+
+}
+.contenido-header h1{
+	color: white;
+	padding-bottom: 2rem;
+	max-width: 60rem;
+    line-height: 4rem;
+}
+
+.barra{
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3rem;
+
+}
+
+.navegacion a{
+
+	color:red;
+	text-decoration: none;
+	font-size: 1.8rem;
+	margin-right: 2rem;
+}
+
+.navegacion a:last-of-type{
+		margin:0;
+}
+
+.navegacion a:hover{
+	color: #30B4FF;
+}
+
+
+.iconos-nosotros{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.icono{
+	flex-basis: calc(33% - 1rem);
+	text-align: center;
+}
+
+
+.icono h3 {
+	text-transform: uppercase;
+
+}
+
+.contenedor-anuncios{
+	display: flex;
+	justify-content: space-between;
+}
+
+.anuncio{
+flex-basis: calc(33.3% - 1rem); /*espacio*/
+border: 1px solid #B5B5B5;
+background-color: #f5f5f5;
+
+}
+.contenido-anuncio{
+	padding: 2rem;
+}
+.contenido-anuncio h3,
+.contenido-anuncio p{
+	margin: 0;
+
+}
+
+.precio{
+	color: #FF0000;
+	font-weight: 500;
+}
+
+.iconos-caracteristicas{
+	list-style: none; /*quitar biñetas*/
+	padding: 0;
+	display: flex;
+	justify-content: space-between; /*arreglar lascosas de vertucal ah ori*/
+
+}
+.iconos-caracteristicas li{
+	flex: 1;
+	display: flex;
+}
+.iconos-caracteristicas li img{
+	margin-right: 2rem;
+}
+.ver-todas{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.imagen-contacto{
+	background-image: url(../img/banner.png);
+	background-position: center center;
+	background-size:cover;
+	height: 50rem;
+	display: flex;
+	align-items: center;
+}
+.imagen-contacto1{
+	background-image: url(../img/banner1.png);
+	background-position: center center;
+	background-size:cover;
+	height: 110rem;
+	display: flex;
+	align-items: center;
+}
+.imagen-contacto2{
+	background-image: url(../img/banner2.png);
+	background-position: center center;
+	background-size:cover;
+	height: 80rem;
+	display: flex;
+	align-items: center;
+}
+.imagen-contacto3{
+	background-image: url(../img/banner3.png);
+	background-position: center center;
+	background-size:cover;
+	height: 60rem;
+	display: flex;
+	align-items: center;
+}
+
+
+
+.imagen-contacto4{
+	background-image: url(../img/banner4.png);
+	background-position: center center;
+	background-size:cover;
+	height: 50rem;
+	display: flex;
+	align-items: center;
+}
+
+
+.contenido-contacto{
+	flex: 1;
+	color: black;
+}
+
+
+.contenido-contacto p{
+	font-size: 1.8rem;
+}
+
+.seccion-inferior{
+	display: flex; /*dividir*/
+	justify-content: space-between; /*dividir*/
+}
+
+.seccion-inferior .blog{
+	flex-basis: 60%; /*tamaño del ancho*/
+
+}
+
+.seccion-inferior .testimoniales{
+	flex-basis: calc(40% - 2rem); /*dividir y deja espacio*/
+}
+
+
+.entrada-blog{
+	display: flex;
+	justify-content: space-between;/*dividir denuevo*/
+	margin-bottom: 2rem;
+}
+
+.entrada-blog:last-of-type{
+	margin-bottom: 0;
+}
+
+.entrada-blog .imagen{
+	flex-basis: 40%;
+}
+
+.entrada-blog .texto-entrada{
+	flex-basis: calc(60% - 3rem);
+}
+
+.entrada-blog a{
+	color: black;
+	text-decoration: none;/*quitar decoracion*/
+}
+
+.entrada-blog h4{
+	margin: 0;
+	line-height: 1.4;    /*altura nere renglon en renglon*/
+}
+
+.texto-entrada h4::after{  /*seudoselector*/
+content: '';
+display: block;
+width: 15rem; /*ancho*/
+height: .5rem; /*alto*/
+background-color: #30b4ff;
+margin-top: 1rem;
+}
+
+.texto-entrada span{ /*SE PUEDE EDITAR DIRECTAMENTE*/
+	color: #E08709;
+
+}
+
+.testimonial{
+	background-color: #30B4FF;
+	font-size: 1.4rem;
+	padding: 2rem;
+	color: white;
+	border-radius: 2rem; /*hace circula*/
+}
+.testimonial p{
+	text-align: right; /*mover texto a la derecha*/
+}
+
+
+.testimonial blockquote::before{ /*antes before*/
+	content: ''; /*comentarios digitales*/
+	background-image: url(../img/comilla.svg);
+	width: 5rem;
+	height: 5rem;
+	position: absolute;
+    left: -2rem;
+
+}
+
+.testimonial blockquote{
+	position: relative;
+	padding-left: 5rem;
+	font-weight: 300;
+}
+
